@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem Especial</title>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px; }
+        h1 { color: #d63384; }
+        p { font-size: 18px; color: #333; }
+        audio { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Para alguém especial 💖</h1>
+    <p>Uma Carta Especial para o Amor da Minha Vida
+        Escrevo essas palavras para o Amor da minha vida,
+        Estou muito feliz por nosso recomeço. Você não imagina o quanto eu sonhava por esse dia.
+        Quero deixar escrito em palavras o quanto eu te amo e quero o seu bem.
+        Hoje minha namorada e futuramente a mãe dos meus filhos. Com toda certeza você será a melhor
+        mãe do mundo.
+        Assim como é uma parceira de vida.
+        Te amo.
+        Esse é um novo começo para nós... e todo novo começo merece um símbolo. 🎶</p>
+    <audio controls autoplay>
+        <source src="https://www.youtube.com/watch?v=FVdjZYfDuLE" type="audio/mp3">
+        Seu navegador não suporta áudio HTML5.
+    </audio>
+</body>
+</html>

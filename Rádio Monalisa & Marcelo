@@ -18,7 +18,7 @@
     
     <div class="player-container">
         <audio id="radioPlayer" controls>
-            <source src="https://stream.zeno.fm/your-radio-stream-url" type="audio/mpeg">
+            <source src="https://aovivo.radiomixfm.com.br/" type="audio/mpeg">
             Seu navegador não suporta áudio HTML5.
         </audio>
     </div>

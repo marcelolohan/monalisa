@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rádio Online</title>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; background-color: #121212; color: #fff; padding: 20px; }
+        h1 { color: #ff4757; }
+        .player-container { margin-top: 20px; }
+        button { padding: 10px 20px; font-size: 18px; background: #ff4757; color: #fff; border: none; cursor: pointer; }
+        button:hover { background: #e84118; }
+    </style>
+</head>
+<body>
+    <h1>🎵 Rádio Online 🎶</h1>
+    <p>Ouça nossa transmissão ao vivo agora!</p>
+    
+    <div class="player-container">
+        <audio id="radioPlayer" controls>
+            <source src="https://stream.zeno.fm/your-radio-stream-url" type="audio/mpeg">
+            Seu navegador não suporta áudio HTML5.
+        </audio>
+    </div>
+    
+    <p><button onclick="document.getElementById('radioPlayer').play()">▶️ Play</button>
+    <button onclick="document.getElementById('radioPlayer').pause()">⏸️ Pause</button></p>
+</body>
+</html>
